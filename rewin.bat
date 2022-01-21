@@ -63,12 +63,12 @@ choco feature enable -n=allowGlobalConfirmation
 :installStandard
 choice /M "Install standard user software package?"
 IF '%errorlevel%' == '2' goto installDev
-call .\standard\standard.bat
+call .\src\standard\standard.bat
 
 :installDev
 choice /M "Install dev software package?"
 IF '%errorlevel%' == '2' goto END
-call .\dev\dev.bat
+call .\src\dev\dev.bat
 
 :END
 choco feature disable --name=allowGlobalConfirmation
