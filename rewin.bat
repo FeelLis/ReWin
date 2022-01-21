@@ -38,6 +38,7 @@ ECHO **************************************
 
 
 :: Info about this batch script
+call .\src\info.bat
 
 choice /M "Install needed software"
 IF '%errorlevel%' == '2' exit /B
