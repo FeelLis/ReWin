@@ -40,8 +40,8 @@ ECHO **************************************
 :: Info about this batch script
 call .\src\info.bat
 
-choice /M "Install needed software"
-IF '%errorlevel%' == '2' exit /B
+choice /M "Install needed software?"
+IF '%errorlevel%' == '2' goto END
 
 :: Software install
 call .\src\choco.bat

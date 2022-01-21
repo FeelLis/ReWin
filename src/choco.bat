@@ -8,7 +8,7 @@ if '%errorlevel%' == '0' ( goto chocoInstalled ) else ( goto chocoMissing )
 
 :chocoMissing
 ECHO .
-choice /M "Chocolatey is required to install the necessary programs! Install now"
+choice /M "Chocolatey is required to install the necessary programs! Install now?"
 IF '%errorlevel%' == '2' goto END
 
 ECHO **************************************
@@ -23,12 +23,12 @@ powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.Service
 choco feature enable -n=allowGlobalConfirmation
 
 :installDefault
-choice /M "Install standard user software package"
+choice /M "Install standard user software package?"
 IF '%errorlevel%' == '2' goto installDev
 call .\src\default\default.bat
 
 :installDev
-choice /M "Install develop software package"
+choice /M "Install develop software package?"
 IF '%errorlevel%' == '2' goto chocoEnd
 call .\src\dev\dev.bat
 
