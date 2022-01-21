@@ -1,10 +1,10 @@
 @echo off
 call .\admin.bat
 
-:installStandard
+:installDefault
 choice /M "Install standard user software package?"
 IF '%errorlevel%' == '2' goto installDev
-call .\standard\standard.bat
+call .\default\default.bat
 
 :installDev
 choice /M "Install dev software package?"
