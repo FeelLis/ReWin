@@ -1,0 +1,15 @@
+D:\Repos\ReWin\bin\Debug\net6.0\ReWin.exe
+D:\Repos\ReWin\bin\Debug\net6.0\ReWin.deps.json
+D:\Repos\ReWin\bin\Debug\net6.0\ReWin.runtimeconfig.json
+D:\Repos\ReWin\bin\Debug\net6.0\ReWin.dll
+D:\Repos\ReWin\bin\Debug\net6.0\ReWin.pdb
+D:\Repos\ReWin\obj\Debug\net6.0\ReWin.csproj.AssemblyReference.cache
+D:\Repos\ReWin\obj\Debug\net6.0\ReWin.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\ReWin\obj\Debug\net6.0\ReWin.AssemblyInfoInputs.cache
+D:\Repos\ReWin\obj\Debug\net6.0\ReWin.AssemblyInfo.cs
+D:\Repos\ReWin\obj\Debug\net6.0\ReWin.csproj.CoreCompileInputs.cache
+D:\Repos\ReWin\obj\Debug\net6.0\ReWin.dll
+D:\Repos\ReWin\obj\Debug\net6.0\refint\ReWin.dll
+D:\Repos\ReWin\obj\Debug\net6.0\ReWin.pdb
+D:\Repos\ReWin\obj\Debug\net6.0\ReWin.genruntimeconfig.cache
+D:\Repos\ReWin\obj\Debug\net6.0\ref\ReWin.dll
