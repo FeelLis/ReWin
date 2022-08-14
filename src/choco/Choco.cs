@@ -80,7 +80,7 @@ namespace ReWin
         {
             Terminal.Run(
                 message: $"Installing {name}",
-                command: $"choco install {name} -y"
+                command: $"winget install {name} -h"
             );
         }
 
@@ -88,7 +88,7 @@ namespace ReWin
         {
             Terminal.Run(
                 message: $"Uninstalling {name}",
-                command: $"choco uninstall {name} -y"
+                command: $"winget uninstall {name} -h"
             );
         }
 
@@ -96,7 +96,7 @@ namespace ReWin
         {
             Terminal.Run(
                 message: "Disabling global confirmation for choco",
-                command: "choco feature disable -n=allowGlobalConfirmation"
+                command: "winget feature disable -n=allowGlobalConfirmation"
             );
         }
     }

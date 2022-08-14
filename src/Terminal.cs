@@ -9,7 +9,7 @@ namespace ReWin
 
             string result = "";
             var processInfo = new System.Diagnostics.ProcessStartInfo(
-                "cmd.exe", "/c " + command);
+                "powershell.exe", "/c " + command);
             processInfo.CreateNoWindow = true;
             processInfo.UseShellExecute = false;
             processInfo.RedirectStandardError = true;
